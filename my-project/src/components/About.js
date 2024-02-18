@@ -7,7 +7,7 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = "../../public/images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -26,8 +26,9 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
-                    src={profilepic}
+                    // height="250px"
+                    width="250px"
+                    src="https://avatars.githubusercontent.com/u/77131873?v=4"
                     alt="Avatar placeholder"
                   />
                   <Icon
