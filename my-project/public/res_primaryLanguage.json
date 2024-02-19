@@ -61,9 +61,9 @@
       "startDate": "2023",
       "description": "Led a 5-person team to created a dynamic and user-friendly travel planner. Incorporated various APIs like YelpAPI and GoogleAPI to grab information based on user input. Users can create and delete travel itineraries, including destinations, dates, and activities. Utilized Express and Node.js to build a robust server-side architecture. Employed MongoDB to store user profiles, trip data, and other relevant information, ensuring data persistence and retrieval.",
       "images": [
-        "images/portfolio/travelr/travelr1.jpg",
-        "images/portfolio/travelr/travelr2.jpg",
-        "images/portfolio/travelr/travelr3.jpg"
+        "images/portfolio/travelr/travelr1.png",
+        "images/portfolio/travelr/travelr2.png",
+        "images/portfolio/travelr/travelr3.png"
       ],
       "url": "https://github.com/nguyenq9/Travelr",
       "technologies": [
