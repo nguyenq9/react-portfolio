@@ -29,7 +29,7 @@ class About extends Component {
                     height="500px"
                     width="500px"
                     src={profilepic}
-                    alt="Thai Nguyen"
+                    alt="Thai Nguyen's profile picture"
                   />
                   <Icon
                     icon={jsIcon}
