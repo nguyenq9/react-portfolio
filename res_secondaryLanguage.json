@@ -1,116 +1,134 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Thai Nguyen. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Thai Nguyen. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Deadwood Game",
+      "startDate": "2022",
+      "description": "Worked on a small team of three to implement a digital version of the board game Deadwood. Translated the complex rules and gameplay mechanics of the physical board game into an engaging and functional digital experience. Developed a user-friendly and visually appealing interface using JavaFX, including game boards, player pieces, cards, and interactive components, providing an immersive gaming experience. Added sound effects and animations to enhance the gaming experience and create a dynamic atmosphere.",
+      "images": [
+        "images/portfolio/deadwood/deadwood1.png",
+        "images/portfolio/deadwood/deadwood2.png"
+      ],
+      "url": "https://github.com/nguyenq9/Deadwood-Game",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "JavaFX"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Reel Time",
+      "startDate": "2023",
+      "description": "Our proposed solution is to create a mobile app that is used to track where and when you catch a fish. The mobile app will take your GPS location and what fish, crab, etc. you catch and then send it to our server which will store all of the data for you to input at the end of the season. Furthermore, as a future stretch goal, we would like to work with local wildlife management facilities and create a way to automatically send in the information at the end of the season so there is no need for user input. Lastly, the user will be able to look at all of the catches they have logged which will be displayed in a list-like fashion. ",
+      "images": [
+        "images/portfolio/reeltime/reeltime1.png",
+        "images/portfolio/reeltime/reeltime2.png",
+        "images/portfolio/reeltime/reeltime3.png",
+        "images/portfolio/reeltime/reeltime4.png"
+      ],
+      "url": "https://sites.google.com/view/reeltime/home",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Travelr",
+      "startDate": "2023",
+      "description": "Led a 5-person team to created a dynamic and user-friendly travel planner. Incorporated various APIs like YelpAPI and GoogleAPI to grab information based on user input. Users can create and delete travel itineraries, including destinations, dates, and activities. Utilized Express and Node.js to build a robust server-side architecture. Employed MongoDB to store user profiles, trip data, and other relevant information, ensuring data persistence and retrieval.",
+      "images": [
+        "images/portfolio/travelr/travelr1.png",
+        "images/portfolio/travelr/travelr2.png",
+        "images/portfolio/travelr/travelr3.png"
+      ],
+      "url": "https://github.com/nguyenq9/Travelr",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "WWU Web Communication Technologies",
+      "title": "Web Development Intern",
+      "years": "01.2024 - Present",
+      "mainTech": [
+        "Web Development"
+      ],
+      "technologies": [
+        "User Experience",
+        "WCAG",
+        "SiteImprove Analytics",
+        "Drupal",
+        "Astro.js",
+        "Web Accessibility"
+      ]
+    },
+    {
+      "company": "Western Washington University",
+      "title": "Computer Science Tutor",
+      "years": "03.2022 - 06.2023",
+      "mainTech": [
+        "Computer Science"
+      ],
+      "technologies": [
+        "Data Structures",
+        "Algorithms",
+        "Computer Science Education",
+        "Peer Tutoring"
+      ]
+    },
+    {
+      "company": "Western Washington University",
+      "title": "Math Center Tutor",
+      "years": "09.2021 - 03.2022",
+      "mainTech": [
+        "Mathematics"
+      ],
+      "technologies": [
+        "Communication",
+        "Math Education",
+        "Peer Tutoring"
+      ]
+    }
+  ]
+}
