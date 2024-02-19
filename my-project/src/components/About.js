@@ -26,9 +26,9 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="500px"
-                    width="500px"
-                    src={profilepic}
+                    height="400px"
+                    // src={profilepic}
+                    src="https://nguyenq9.github.io/react-portfolio/images/myProfile.jpg"
                     alt="Thai Nguyen's profile picture"
                   />
                   <Icon
